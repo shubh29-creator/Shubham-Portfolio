@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Goel | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">SG</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Shubham Goel</span></h1>
+            <h2>MCA Student | Full Stack Developer | AI/ML Enthusiast</h2>
+            <p>A passionate developer who loves creating modern, responsive and visually clean websites & AI-based applications.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">View Projects</a>
+                <a href="Resumes.pdf" target="_blank" download class="btn-secondary">
+                    Download Resume
+                </a>
+            </div>
+        </div>
+        <div class="hero-img">
+            <img src="profile pic.jpg" alt="Shubham">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am an MCA student passionate about full stack development and Artificial Intelligence. I enjoy building modern UI, applying machine learning concepts, and creating projects that solve real-world problems.</p>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skill-grid">
+            <div class="skill-card">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>HTML/CSS</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Frameworks & Libraries</h3>
+                <ul>
+                    <li>ReactJS</li>
+                    <li>NodeJS</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Tools & Technologies</h3>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Communication</li>
+                    <li>Teamwork</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Attendance Tracker</h3>
+                <p>A Python-based attendance management system using CSV.</p>
+                <a href="https://github.com/shubh29-creator" target="_blank">GitHub Link</a>
+
+            </div>
+
+            <div class="project-card">
+                <h3>Contact Book</h3>
+                <p>Python-based CLI contact book using CSV and JSON.</p>
+                <a href="https://github.com/shubh29-creator" target="_blank">GitHub Link</a>
+
+            </div>
+
+            <div class="project-card">
+                <h3>ML Visualizations</h3>
+                <p>Exploratory Data Analysis using Matplotlib & Seaborn.</p>
+                <a href="https://github.com/shubh29-creator" target="_blank">GitHub Link</a>
+
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A fully responsive portfolio using HTML, CSS and JS.</p>
+                <a href="https://github.com/shubh29-creator" target="_blank">GitHub Link</a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+   <section id="education" class="education">
+    <h2 style="margin-left: 20px;">Education</h2>
+    <ul>
+
+        <li>
+            🎓 BCA — Manipal University Jaipur
+        </li>
+
+        <li>
+            🎓 MCA — KR Mangalam University
+        </li>
+
+        <li>
+            ☁️ Diploma in Cloud Computing — Jetking  
+            ( <a href="certificate.pdf" target="_blank">View Certificate</a> )
+        </li>
+
+        <li>
+            🤖 Machine Learning with Python  
+            ( <a href="ml certificate.pdf" target="_blank">View Certificate</a> )
+        </li>
+
+    </ul>
+</section>
+
+
+  <!-- CONTACT SECTION -->
+<section id="contact" class="contact-section">
+    <div class="contact-container">
+
+        <!-- Left Side Image -->
+        <div class="contact-img">
+            <img src="contact.jpg" alt="Work Setup">
+        </div>
+
+        <!-- Right Side Info -->
+        <div class="contact-info">
+            <h2>My Contact</h2>
+
+            <p><strong>Email:</strong> 
+                <a href="mailto:goelshubh29@gmail.com">goelshubh29@gmail.com</a>
+            </p>
+
+            <p><strong>LinkedIn:</strong> 
+                <a href="www.linkedin.com/in/shubham-goel-7009112ab" target="_blank">Visit Profile</a>
+            </p>
+
+            <p><strong>GitHub:</strong> 
+                <a href="https://github.com/shubh29-creator" target="_blank">Visit GitHub</a>
+            </p>
+
+            <p><strong>Download Resume:</strong> 
+                <a href="resume.pdf" download>Click to Download</a>
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT FORM SECTION -->
+<section class="message-section" id="message">
+    <h2>Drop Me a Message</h2>
+
+    <div class="message-box">
+        <form action="https://formsubmit.co/goelshubh29@gmail.com" method="POST">
+
+            <!-- Required hidden settings -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New Message From Your Portfolio">
+            <input type="hidden" name="_template" value="table">
+
+            <label>Your Email:</label>
+            <input type="email" name="email" placeholder="Enter your email" required>
+
+            <label>Your Message:</label>
+            <textarea name="message" rows="4" placeholder="Write your message" required></textarea>
+
+            <button type="submit" class="msg-btn">Send Message</button>
+        </form>
+    </div>
+
+</section>
+
+
+
+
+    <!-- FOOTER -->
+<footer class="main-footer">
+    
+
+    <p class="footer-contact">
+        📧 goelshubh29@gmail.com  &nbsp; | &nbsp;  📞 +91 9205072707
+    </p>
+
+    <div class="footer-socials">
+        <a href="www.linkedin.com/in/shubham-goel-7009112ab" target="_blank">🔗</a>
+        <a href="https://github.com/shubh29-creator" target="_blank">💻</a>
+    </div>
+
+    <p class="footer-bottom">
+        Open to opportunities — Let's connect and grow together 🚀
+    </p>
+
+    <p class="footer-copy">
+        © 2025 Shubham Goel. All rights reserved.
+    </p>
+
+</footer>
+
+
+</body>
+</html>
