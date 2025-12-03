@@ -55,6 +55,46 @@ h1, h2, h3 {
 }
 
 /* ----------------------------- */
+/* LIGHT MODE */
+/* ----------------------------- */
+.light-mode {
+    background: #ffffff;
+    color: #000000;
+}
+
+.light-mode .navbar {
+    background: rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.light-mode .logo {
+    color: #2563eb;
+}
+
+.light-mode nav a {
+    color: #2563eb;
+}
+
+.light-mode .skill-card,
+.light-mode .project-card,
+.light-mode .education ul li,
+.light-mode .message-box {
+    background: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.light-mode .btn-primary {
+    background: #2563eb;
+    color: white;
+}
+
+.light-mode .btn-secondary {
+    border-color: #2563eb;
+    color: #2563eb;
+}
+
+
+/* ----------------------------- */
 /* HERO SECTION */
 /* ----------------------------- */
 .hero {
@@ -504,5 +544,53 @@ color: #d1d5db;
 
     .skill-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+/* Mobile navbar fix */
+@media (max-width: 600px) {
+    .navbar nav {
+        display: none;  
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+}
+
+/* Hero Section Mobile */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero h2 {
+        font-size: 18px;
+    }
+
+    .hero-img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+/* Project cards full width */
+@media (max-width: 600px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Contact Section Fix */
+@media (max-width: 600px) {
+    .contact-img img {
+        width: 100%;
+    }
+
+    .contact-container {
+        padding: 0 10px;
     }
 }
